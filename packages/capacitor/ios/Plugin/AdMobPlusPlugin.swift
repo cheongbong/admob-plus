@@ -56,11 +56,11 @@ public class AdMobPlusPlugin: CAPPlugin, AMBHelperAdapter {
         }
 
         if let tag = ctx.optChildDirectedTreatmentTag() {
-            requestConfiguration.tag(forChildDirectedTreatment: tag)
+            requestConfiguration.tagForChildDirectedTreatment = tag as NSNumber //(forChildDirectedTreatment: tag)
         }
 
         if let tag = ctx.optUnderAgeOfConsentTag() {
-            requestConfiguration.tagForUnderAge(ofConsent: tag)
+            requestConfiguration.tagForUnderAgeOfConsent = tag as NSNumber //(ofConsent: tag)
         }
 
         if let testDevices = ctx.optTestDeviceIds() {

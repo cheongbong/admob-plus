@@ -1,6 +1,6 @@
 {
-  "name": "@admob-plus/capacitor",
-  "version": "2.0.0-alpha.3",
+  "name": "@piko-admob-plus/capacitor",
+  "version": "2.0.0-alpha.4",
   "description": "AdMob Plus Capacitor Plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -75,5 +75,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "@capacitor/cli": "^5.7.4"
   }
 }

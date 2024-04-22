@@ -48,7 +48,7 @@ class AMBRewarded: AMBAdBase, GADFullScreenContentDelegate {
         self.emit(AMBEvents.rewardedShowFail, error)
     }
 
-    func adDidPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+    func adWillPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
         self.emit(AMBEvents.rewardedShow)
     }
 
