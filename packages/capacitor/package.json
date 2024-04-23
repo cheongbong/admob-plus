@@ -1,6 +1,6 @@
 {
-  "name": "@admob-plus/capacitor",
-  "version": "2.0.0-alpha.3",
+  "name": "@pikopika/admob-plus-capacitor",
+  "version": "2.0.0-alpha.5",
   "description": "AdMob Plus Capacitor Plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "AdmobPlusCapacitor.podspec",
+    "PikopikaAdmobPlusCapacitor.podspec",
     "!**/*.tsbuildinfo"
   ],
   "author": "Ratson",

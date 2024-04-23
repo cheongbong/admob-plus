@@ -198,12 +198,12 @@ addListener(eventName: string, listenerFunc: (event: any) => void) => Promise<Pl
 
 #### AdMobConfig
 
-<code>{ appMuted?: boolean appVolume?: number }</code>
+<code>{ appMuted?: boolean appVolume?: number }</code>
 
 
 #### RequestConfig
 
-<code>{ maxAdContentRating?: <a href="#maxadcontentrating">MaxAdContentRating</a> sameAppKey?: boolean tagForChildDirectedTreatment?: boolean | null tagForUnderAgeOfConsent?: boolean | null testDeviceIds?: string[] }</code>
+<code>{ maxAdContentRating?: MaxAdContentRating sameAppKey?: boolean tagForChildDirectedTreatment?: boolean | null tagForUnderAgeOfConsent?: boolean | null testDeviceIds?: string[] }</code>
 
 
 #### MobileAdOptions

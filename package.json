@@ -68,7 +68,6 @@
     "*.{js,jsx,ts,tsx}": "biome check --apply --no-errors-on-unmatched",
     "*.md": "remark --no-stdout",
     "*.swift": "node-swiftlint lint --strict --path",
-    "examples/*/package.json": "prettier --write",
     "package.json": "vitest --run test/package-json.test.ts",
     "scripts/": "biome lint"
   },
